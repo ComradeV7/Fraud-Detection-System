@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env_dir/
+
+# Environment Variables (contains secrets)
+.env
+
+# Large Data Files
+data/
+
+# Generated Artifacts (model weights, scalers, processed data)
+artifacts/
+
+# MLflow Tracking Database and Runs
+mlflow.db
+mlruns/
+
+# SQLite Production Database
+fraud_logs.db
+
+# Evidently Reports
+drift_report.html
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

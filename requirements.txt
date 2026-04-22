@@ -1,0 +1,34 @@
+# Tells pip where to find the NVIDIA CUDA wheels for PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Machine Learning and Data Processing
+torch==2.2.0+cu121
+scikit-learn
+imbalanced-learn
+pandas
+numpy
+seaborn
+optuna
+xgboost
+shap
+matplotlib
+
+# API Serving and Data Validation
+fastapi
+uvicorn
+pydantic
+
+# Database and Environment Configuration
+sqlalchemy
+asyncpg
+python-dotenv
+
+# Interactive Dashboard UI
+streamlit
+
+# MLOps Monitoring and Tracking
+evidently
+mlflow
+
+# Testing Framework
+pytest
