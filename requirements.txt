@@ -12,6 +12,7 @@ optuna
 xgboost
 shap
 matplotlib
+joblib
 
 # API Serving and Data Validation
 fastapi
@@ -25,6 +26,12 @@ python-dotenv
 
 # Interactive Dashboard UI
 streamlit
+plotly
+
+# Database Connectors
+psycopg2-binary
+confluent-kafka
+redis
 
 # MLOps Monitoring and Tracking
 evidently

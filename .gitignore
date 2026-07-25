@@ -3,21 +3,29 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.egg-info/
+dist/
+build/
 
 # Virtual Environments
 venv/
 .venv/
 env/
 .env_dir/
+list/
 
 # Environment Variables (contains secrets)
 .env
 
 # Large Data Files
 data/
+*.csv
 
 # Generated Artifacts (model weights, scalers, processed data)
 artifacts/
+*.pt
+*.pkl
+*.parquet
 
 # MLflow Tracking Database and Runs
 mlflow.db
@@ -25,16 +33,53 @@ mlruns/
 
 # SQLite Production Database
 fraud_logs.db
+*.db
 
 # Evidently Reports
 drift_report.html
+*.html
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation (keep only README files)
+PROJECT_STATUS_AND_EVALUATION.md
+PROJECT_INTERVIEW_GUIDE.md
+RESUME_BULLETS_STREAMING.md
+DATA_ANALYSIS_REPORT.md
+QUICK_REFERENCE.md
+FINAL_CHECKLIST.md
+GIT_COMMIT_GUIDE.md
+README_FIRST.md
+PUSH_TO_GITHUB.md
 
 # OS Files
 Thumbs.db
 .DS_Store
+*.swp
+*.swo
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
+*.code-workspace
+
+# Logs
+*.log
+
+# Docker volumes
+volumes/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Kiro AI
+.kiro/
