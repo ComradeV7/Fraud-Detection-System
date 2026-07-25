@@ -1,8 +1,8 @@
-# Real-Time Fraud Detection System with Streaming Pipeline
+# Fraud Detection System with Streaming Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue) ![Kafka](https://img.shields.io/badge/Kafka-Streaming-orange) ![XGBoost](https://img.shields.io/badge/XGBoost-ML-green) ![SHAP](https://img.shields.io/badge/SHAP-Explainability-red) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
 
-**Production-ready real-time fraud detection system** with explainable AI, processing transactions at 0-3ms latency with zero message loss. Built on the [NeurIPS Bank Account Fraud (BAF)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022) dataset.
+**Production-ready simulated fraud detection system** with explainable AI, processing transactions at 0-3ms latency with zero message loss. Built on the [NeurIPS Bank Account Fraud (BAF)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022) dataset.
 
 ## 🎯 Project Highlights
 
