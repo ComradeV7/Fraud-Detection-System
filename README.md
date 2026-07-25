@@ -378,13 +378,6 @@ This project is provided for academic and research purposes.
 
 ---
 
-## 👤 Author
-
-**Your Name**  
-[GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
-
----
-
 ## 🙏 Acknowledgments
 
 - **Dataset:** [NeurIPS Bank Account Fraud (BAF)](https://www.kaggle.com/datasets/sgpjesus/bank-account-fraud-dataset-neurips-2022)
